@@ -75,7 +75,7 @@ function Hero() {
                 <div className="phone-notch"></div>
                 <div className="phone-screen">
                   <img
-                    src="/app-screenshot.png"
+                    src={`${import.meta.env.BASE_URL}app-screenshot.png`}
                     alt="Motivade app screenshot"
                     className="phone-screenshot"
                   />

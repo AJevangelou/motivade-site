@@ -10,7 +10,7 @@ function Navigation() {
       <div className="nav-container">
         <a href={import.meta.env.BASE_URL} className="nav-logo">
           <span className="logo-icon">
-            <img src="/roary.svg" alt="Roary" className="logo-img" />
+            <img src={`${import.meta.env.BASE_URL}roary.svg`} alt="Roary" className="logo-img" />
           </span>
           <span className="logo-text">Motivade</span>
         </a>

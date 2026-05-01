@@ -8,7 +8,7 @@ function Footer() {
           <div className="footer-brand">
             <div className="footer-logo">
               <span className="footer-logo-icon">
-                <img src="/roary.svg" alt="Roary" className="logo-img" />
+                <img src={`${import.meta.env.BASE_URL}roary.svg`} alt="Roary" className="logo-img" />
               </span>
               <span className="footer-logo-text">Motivade</span>
             </div>
