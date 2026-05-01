@@ -30,8 +30,8 @@ function Footer() {
             <div className="footer-column">
               <h4>Support</h4>
               <ul>
-                <li><a href="/support">Support</a></li>
-                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}support`}>Support</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}privacy-policy`}>Privacy Policy</a></li>
                 <li><a href="mailto:johnyevag95@gmail.com">Contact</a></li>
               </ul>
             </div>

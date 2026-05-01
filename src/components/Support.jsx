@@ -4,7 +4,7 @@ function Support() {
   return (
     <div className="privacy-page">
       <div className="privacy-container">
-        <a href="/" className="privacy-back">← Back to Motivade</a>
+        <a href={import.meta.env.BASE_URL} className="privacy-back">← Back to Motivade</a>
 
         <header className="privacy-header">
           <h1>Support</h1>
@@ -40,7 +40,7 @@ function Support() {
           <p>
             All your data — workouts, goals, measurements, and progress — is stored
             exclusively on your device. See our{' '}
-            <a href="/privacy-policy">Privacy Policy</a> for details.
+            <a href={`${import.meta.env.BASE_URL}privacy-policy`}>Privacy Policy</a> for details.
           </p>
 
           <h3>How do I cancel my subscription?</h3>

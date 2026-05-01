@@ -8,7 +8,9 @@ import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import Support from './components/Support'
 
-const path = window.location.pathname
+const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+const rawPath = window.location.pathname.replace(/\/$/, '')
+const path = rawPath.startsWith(base) ? rawPath.slice(base.length) || '/' : rawPath || '/'
 
 function App() {
   if (path === '/privacy-policy') {

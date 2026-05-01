@@ -8,7 +8,7 @@ function Navigation() {
   return (
     <nav className="navigation">
       <div className="nav-container">
-        <a href="/" className="nav-logo">
+        <a href={import.meta.env.BASE_URL} className="nav-logo">
           <span className="logo-icon">
             <img src="/roary.svg" alt="Roary" className="logo-img" />
           </span>

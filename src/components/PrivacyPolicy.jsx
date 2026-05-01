@@ -4,7 +4,7 @@ function PrivacyPolicy() {
   return (
     <div className="privacy-page">
       <div className="privacy-container">
-        <a href="/" className="privacy-back">← Back to Motivade</a>
+        <a href={import.meta.env.BASE_URL} className="privacy-back">← Back to Motivade</a>
 
         <header className="privacy-header">
           <h1>Privacy Policy</h1>
