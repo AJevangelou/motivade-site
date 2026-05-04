@@ -8,15 +8,21 @@ function PrivacyPolicy() {
 
         <header className="privacy-header">
           <h1>Privacy Policy</h1>
-          <p className="privacy-date">Last updated: May 4, 2026</p>
+          <p className="privacy-date">Last updated: May 5, 2026</p>
         </header>
 
         <section className="privacy-section">
           <h2>Overview</h2>
           <p>
-            Motivade is built with your privacy as a priority. <strong>All of your personal data, fitness logs,
-            workout history, and health information are stored exclusively on your device.</strong> We do not
-            collect, transmit, or store your personal data on any external servers.
+            Motivade is built with your privacy as a priority. <strong>Almost all of your personal data, fitness
+            logs, workout history, and health information are stored exclusively on your device.</strong> We do
+            not operate servers that collect or store your data.
+          </p>
+          <p>
+            The only exception is our AI-powered features, which send anonymised fitness data to OpenAI's API
+            to generate personalised workout plans, performance insights, and nutrition guidance. No personally
+            identifiable information (such as your name, email, or device ID) is ever included. See the
+            <strong> AI Features</strong> section below for full details.
           </p>
         </section>
 
@@ -51,9 +57,25 @@ function PrivacyPolicy() {
         <section className="privacy-section">
           <h2>AI Features</h2>
           <p>
-            When you interact with Motivade's AI coaching features, your queries may be processed to generate
-            responses. Any AI interactions are handled in a privacy-preserving manner and are not linked to
-            your identity. Conversation history is stored only on your device.
+            Motivade's AI features are powered by OpenAI's API. When you use these features, a minimal set
+            of anonymised fitness data is sent to OpenAI to generate your response. The data sent depends
+            on the feature used:
+          </p>
+          <ul>
+            <li><strong>AI Workout Generation:</strong> fitness level, fitness goals, training frequency, and equipment availability.</li>
+            <li><strong>Performance Insights:</strong> fitness level, goals, training frequency, and a summary of your last 20 workouts (workout name, date, duration, exercise names, set and rep counts).</li>
+            <li><strong>Progressive Overload Suggestions:</strong> fitness level, goals, exercise name, and your last 15 sets for that exercise (weight, reps, date).</li>
+            <li><strong>Nutrition Guidance:</strong> age, weight, height, fitness goals, training frequency, and calculated calorie targets.</li>
+            <li><strong>Meal Recipes:</strong> fitness goals, fitness level, and the selected meal's name and nutritional targets.</li>
+          </ul>
+          <p>
+            <strong>No personally identifiable information is ever sent</strong> — including your name, email
+            address, phone number, location, or device identifier. All responses are processed in memory and
+            the results are saved only on your device. OpenAI does not use API data to train its models by
+            default. For more information, see{' '}
+            <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer">
+              OpenAI's Privacy Policy
+            </a>.
           </p>
         </section>
 
@@ -81,6 +103,7 @@ function PrivacyPolicy() {
           <h2>Third-Party Services</h2>
           <p>
             Motivade does not integrate with third-party analytics, advertising, or tracking services.
+            The only third-party service that receives any data is OpenAI (for AI features, described above).
             If you choose to connect optional integrations (such as Apple Health), that data remains
             on your device and is governed by the respective platform's privacy policy.
           </p>
