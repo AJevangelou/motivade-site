@@ -8,7 +8,7 @@ function PrivacyPolicy() {
 
         <header className="privacy-header">
           <h1>Privacy Policy</h1>
-          <p className="privacy-date">Last updated: April 26, 2026</p>
+          <p className="privacy-date">Last updated: May 4, 2026</p>
         </header>
 
         <section className="privacy-section">
@@ -54,6 +54,26 @@ function PrivacyPolicy() {
             When you interact with Motivade's AI coaching features, your queries may be processed to generate
             responses. Any AI interactions are handled in a privacy-preserving manner and are not linked to
             your identity. Conversation history is stored only on your device.
+          </p>
+        </section>
+
+        <section className="privacy-section">
+          <h2>Subscriptions and In-App Purchases</h2>
+          <p>
+            Motivade offers optional auto-renewable Premium subscriptions (monthly and yearly) processed
+            entirely through Apple's App Store. We do not collect, store, or have access to your payment
+            information — all billing is handled by Apple.
+          </p>
+          <ul>
+            <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.</li>
+            <li>You can manage or cancel your subscription at any time in your Apple ID account settings.</li>
+            <li>No personal financial data is transmitted to or stored by Motivade.</li>
+          </ul>
+          <p>
+            For more information on how Apple handles payment data, see{' '}
+            <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
+              Apple's Privacy Policy
+            </a>.
           </p>
         </section>
 
